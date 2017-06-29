@@ -13,7 +13,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'python helloWorldTest.py'
+				sh 'python src/helloWorldTest.py'
 			}
 		}
 
@@ -21,7 +21,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'python helloWorld.py'
+				sh 'python submissions/helloWorld.py'
 			}
 		}
 
